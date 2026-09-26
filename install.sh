@@ -39,9 +39,13 @@ then
                emby-theater \
                handbrake-cli \
                handbrake \
+			   eyedropper \
+			   discord \
                flameshot \
                cosmic-files \
 			   cosmic-monitor \
+			   mediainfo-gui \
+			   mkvtoolnix-gui \
 			   yubikey-manager \
 			   libfido2 \
 			   pcsc-tools \
