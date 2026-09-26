@@ -40,9 +40,18 @@ then
                handbrake-cli \
                handbrake \
                flameshot \
-               gvfs-mtp \
+               cosmic-files \
+			   cosmic-monitor \
+			   yubikey-manager \
+			   libfido2 \
+			   pcsc-tools \
+			   pcsclite \
+			   pam-u2f \
+			   awesome-terminal-fonts \
+			   ttf-fira-code \
+			   gvfs-mtp \
                gvfs-gphoto2 \
-               mtpfs --noconfirm
+			   mtpfs --noconfirm
      systemctl --user restart xdg-desktop-portal.service
 	 systemctl --user restart xdg-desktop-portal-hyprland.service
 else
@@ -59,6 +68,7 @@ then
     systemctl --user enable --now xdg-desktop-portal.service
     systemctl --user enable --now xdg-desktop-portal-gtk.service
     systemctl --user enable --now xdg-desktop-portal-wlr.service
+	sudo systemctl enable --now pcscd.socket
 else
     echo "Okay moving on..."
 fi
