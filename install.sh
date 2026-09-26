@@ -113,7 +113,7 @@ prompt_color bright "Do you want to apply Dolphin Open With (MIME) fixes? "
 
 if [[ $answer == "y" || $answer == "Y" ]];
 then
-    source dolphin-fixes/install.sh
+    source dolphin-fixes/open_with_mime_fix.sh
 else
     echo "Okay moving on..."
 fi
