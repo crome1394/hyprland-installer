@@ -31,7 +31,6 @@ then
                nm-connection-editor \
                cachy-update \
                vscodium \
-               loupe \
                xpdf \
                quickshell \
                font-manager \
@@ -44,6 +43,7 @@ then
                flameshot \
                cosmic-files \
 			   cosmic-monitor \
+			   cosmic-viewer \
 			   mediainfo-gui \
 			   mkvtoolnix-gui \
 			   yubikey-manager \
