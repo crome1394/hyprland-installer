@@ -29,6 +29,7 @@ if [[ $answer == "y" || $answer == "Y" ]];
 then
     sudo pacman -S mpv \
                nm-connection-editor \
+			   github-cli \
                cachy-update \
                vscodium \
                xpdf \
