@@ -52,6 +52,7 @@ then
 			   pcsc-tools \
 			   pcsclite \
 			   pam-u2f \
+			   satty \
 			   awesome-terminal-fonts \
 			   ttf-fira-code \
 			   gvfs-mtp \
