@@ -32,14 +32,18 @@ then
 			   github-cli \
                cachy-update \
                vscodium \
-               xpdf \
                quickshell \
                font-manager \
                protonup-qt \
                emby-theater \
                handbrake-cli \
                handbrake \
-			   eyedropper \
+			   grim \
+			   slurp \
+			   tesseract \
+			   tesseract-data-eng \
+			   wl-clipboard \
+			   libnotify \
 			   discord \
                flameshot \
                cosmic-files \
