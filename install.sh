@@ -33,7 +33,8 @@ then
                cachy-update \
                vscodium \
                quickshell \
-               font-manager \
+               rofi-calc \
+			   font-manager \
                protonup-qt \
                emby-theater \
                handbrake-cli \
